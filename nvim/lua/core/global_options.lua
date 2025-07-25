@@ -52,7 +52,12 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+vim.opt.wrap = false -- Display lines as one long line (Default = true)
+vim.opt.linebreak = true -- Companion to wrap, don't split words (Default = false)
 
+vim.opt.smartindent = true -- Make indenting smarter again (default: false)
+
+vim.opt.autoindent = true  --Copy indent from current line when starting a new one (Default = true)
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
 --  See `:help vim.highlight.on_yank()`
