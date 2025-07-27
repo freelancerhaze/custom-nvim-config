@@ -108,7 +108,6 @@ return {
 				"black", -- Python formatter
 				"prettier", -- JavaScript/HTML/CSS formatter
 				"google-java-format", -- Java formatter
-				"gofmt", -- Go formatter
 				"tfsec", -- Terraform linter
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
